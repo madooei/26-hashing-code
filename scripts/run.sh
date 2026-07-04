@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Compile all source into out/ and run the chapter demo.
-# Bootstrap replaces hashing.Main with the chapter's demo entry point
-# (e.g., stack.Main).
+# Compile all source into out/ and run the hash-function demo.
 set -e
 cd "$(dirname "$0")/.."
 javac -d out $(find src/main -name "*.java")
